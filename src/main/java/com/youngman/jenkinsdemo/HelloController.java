@@ -11,6 +11,6 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
-        return "sixth change";
+        return "seven change";
     }
 }
