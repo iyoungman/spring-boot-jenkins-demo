@@ -6,11 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by youngman on 2018-12-18.
  */
+
 @RestController
 public class HelloController {
 
     @GetMapping
     public String hello() {
-        return "seven change";
+        return "eight change";
     }
 }
